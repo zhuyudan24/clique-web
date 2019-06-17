@@ -1,0 +1,34 @@
+@import './public.css';
+.arrowico{
+  position: absolute;
+  transition: all .5s;
+  .icoposition(0px,25px);
+}
+.icoposition(@right: right,@top: top){
+  right: @right;
+  top: @top;
+}
+
+.user-form-dialog {
+  /deep/ .el-dialog {
+     min-width: 425px;
+  }
+
+  /*/deep/ .el-dialog__body {
+      padding: 0 20px;
+  }*/
+
+  /deep/ .el-input {
+    width: 260px;
+  }
+}
+.pass-form-dialog {
+  /deep/ .el-dialog {
+     min-width: 425px;
+  }
+
+  /*/deep/ .el-dialog__body {
+      padding: 0 20px;
+  }*/
+}
+
