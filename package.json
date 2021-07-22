@@ -21,7 +21,7 @@
     "vue": "^2.5.2",
     "vue-clipboard2": "^0.2.0",
     "vue-router": "^3.0.1",
-    "xlsx": "^0.13.0"
+    "xlsx": "^0.17.0"
   },
   "devDependencies": {
     "@antv/data-set": "^0.8.9",
